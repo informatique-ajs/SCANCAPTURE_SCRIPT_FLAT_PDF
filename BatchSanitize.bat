@@ -2,10 +2,10 @@
 setlocal enabledelayedexpansion
 
 REM Spécifiez le dossier contenant les fichiers PDF
-set "PDF_DIR=C:\Users\tbury\Desktop\Input"
+set "PDF_DIR=C:\Users\administrateur.D_AJS\Desktop\Input"
 
 REM Spécifiez le dossier de destination pour les fichiers PostScript
-set "OUTPUT_DIR=C:\Users\tbury\Desktop\Output"
+set "OUTPUT_DIR=C:\Users\administrateur.D_AJS\Desktop\Output"
 
 REM Créez le dossier de destination s'il n'existe pas
 if not exist "!OUTPUT_DIR!" mkdir "!OUTPUT_DIR!"
